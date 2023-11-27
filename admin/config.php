@@ -1,3 +1,3 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'gCuYfKNFMlpZiwny', 'diyaluma');
+$mysqli = new mysqli('localhost', 'root', '', 'diyaluma');
 ?>
