@@ -1,11 +1,11 @@
 <?php
-$servername = "140.238.243.244";
-$username = "dbmsadmin";
-$password = "dbmspass";
-$dbname = "dbmsminiproject";
+$servername = "localhost";
+$username = "root";
+$password = "gCuYfKNFMlpZiwny";
+$dbname = "diyaluma";
 
-$mysqli = new mysqli('140.238.243.244', 'dbmsadmin', 'dbmspass', 'dbmsminiproject');
-$mysqli_2 = new mysqli('140.238.243.244', 'dbmsadmin', 'dbmspass', 'dbmsminiproject');
-$mysqli_3 = new mysqli('140.238.243.244', 'dbmsadmin', 'dbmspass', 'dbmsminiproject');
+$mysqli = new mysqli('localhost', 'root', 'gCuYfKNFMlpZiwny', 'diyaluma');
+$mysqli_2 = new mysqli('localhost', 'root', 'gCuYfKNFMlpZiwny', 'diyaluma');
+$mysqli_3 = new mysqli('localhost', 'root', 'gCuYfKNFMlpZiwny', 'diyaluma');
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 ?>
